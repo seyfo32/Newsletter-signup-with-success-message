@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Sign-up form start -->
+    <!-- div -->
+    <div id="form" class="form-page">
+        <div class="container">
+            <div class="first-card"><img src="./assets/images/illustration-sign-up-mobile.svg" alt=""></div>
+            <div class="second-container">
+                <div class="second-card">
+                    <h1 class="first-header">Stay updated!</h1>
+                    <p class="first-text"> Join 60,000+ product managers receiving monthly
+                        updates on:</p>
+                    <ul class="opps">
+                        <li><img src="./assets/images/icon-success.svg" alt="">
+                            <p class="list-text">Product discovery and building what matters</p>
+                        </li>
+                        <li><img src="./assets/images/icon-success.svg" alt="">
+                            <p class="list-text">Measuring to ensure updates are a success</p>
+                        </li>
+                        <li> <img src="./assets/images/icon-success.svg" alt="">
+                            <p class="list-text">And much more!</p>
+                        </li>
+                    </ul>
+
+                    <form id="myform">
+                        <label class="label" for="email">Email address</label>
+                        <p id="error" class="error-text">Valid email required</p>
+                        <input id="mail-input" class="mail-input" type="text" placeholder="email@company.com">
+
+
+                        <button class="button" type="submit">Subscribe to monthly newsletter</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Success message start -->
+   
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>
+    </div>
+    <div id="suc-page">
+        <div class="suc-body">
+        <div class="suc-container">
+        <img src="./assets/images/icon-success.svg" alt="">
+        <h1 class="thx-header">Thanks for subscribing!</h1>
+
+        <p class="thx-text"> A confirmation email has been sent to <b>ash@loremcompany.com</b>.
+            Please open it and click the button inside to confirm your subscription.</p>
+
+       
+        <button id="mybutton" class="thx-button">Dismiss message</button> 
+    </div></div>
+</div>
+    <script src="index.js"></script>
+</body>
+
+</html>

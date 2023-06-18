@@ -1,0 +1,213 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    min-height: 100vh;
+}
+
+
+
+.first-card img {
+    width: 100%;
+
+}
+
+.first-header {
+    font-size: 36px;
+    padding: 1rem 2rem;
+}
+
+.first-text {
+    padding: 1rem 2rem;
+}
+
+.opps {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+li {
+    display: flex;
+
+}
+
+li img {
+    width: 1.2rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.list-text {
+    margin-left: 1rem;
+}
+
+form {
+    display: grid;
+    padding: 1rem;
+    margin: 0rem 1rem;
+}
+
+.label {
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.mail-input {
+    padding: 1rem;
+    border-radius: 7px;
+    border: 1px solid #D3D3D3;
+}
+
+.button {
+    color: white;
+    padding: 1rem;
+    background-color: hsl(234, 29%, 20%);
+    margin-top: 1.2rem;
+    border: none;
+    border-radius: 8px;
+   
+
+}
+.button:hover{
+    background-color: hsl(4, 100%, 67%);
+    transition: 0.2s;
+}
+.hide{
+    display: none;
+}
+.thx-header{
+    font-size: 40px;
+}
+.suc-container{
+    display: grid;
+    gap: 2rem;
+    padding: 8rem 1.5rem;
+    
+}
+.suc-page{
+    max-height: 768px;
+}
+.thx-button{
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 20rem;
+    
+    background-color: hsl(234, 29%, 20%);
+
+    
+}
+.thx-button:hover{
+    background-color: hsl(4, 100%, 67%);
+    transition: 0.2s;
+}
+.error-text{
+    font-size: 12px;
+    color: red;
+    text-align: right;
+    font-weight: bold;
+    
+}
+@media (min-width: 768px) {
+
+    body{
+        background-color:hsl(235, 18%, 26%); 
+    }
+    .suc-container{
+        background-color: white;
+        width:400px;
+        height: 400px;
+        margin: auto;
+       position: absolute;
+      top: 30%;
+      left: 35%;
+      gap:0.5rem;
+        padding: 3rem;
+        border-radius: 2rem;
+    }
+    .thx-button{
+        margin-top: 0.5rem;
+        padding: 0.3rem;
+    }
+    .thx-header{
+        font-size: 48px;
+        line-height: 1;
+    }
+}
+@media (min-width: 1200px) {
+    body {
+        background-color: hsl(235, 18%, 26%);
+        min-height: 100vh;
+       
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+       
+        border-radius: 1.5rem;
+        max-width: 955px;
+       
+      
+    }
+
+    .first-card img {
+        content: url('./assets/images/illustration-sign-up-desktop.svg');
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    .first-card {
+        padding: 1rem;
+
+    }
+
+    .second-container {
+        margin: 2rem;
+        padding-top: 3rem;
+        
+    }
+
+    .first-header {
+        padding: 0rem;
+        text-align: center;
+        font-size: 68px;
+        text-align: left;
+        margin-left: 1.2rem;
+        
+    }
+
+    .first-text {
+        margin: 0.2rem;
+        padding-left: 1rem;
+    }
+
+    .opps {
+        list-style: none;
+        margin-top: 1rem;
+    }
+
+    form {
+        display: grid;
+        padding: 0.2rem;
+        margin: 0rem 1rem;
+
+    }
+    
+}
